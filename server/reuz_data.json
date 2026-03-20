@@ -1,0 +1,1245 @@
+{
+  "users": [
+    {
+      "id": "user_alice",
+      "name": "Alice Karimova",
+      "email": "alice@demo.com",
+      "password": "$2a$10$qdp2wBMGc8edIvqy2fTemeNFg69KNFRKmsH3XvZy8RN/Jq5WO5Sae",
+      "region": "Tashkent",
+      "bio": "Vintage fashion lover based in Tashkent.",
+      "rating": 4.8,
+      "reviewCount": 23,
+      "joinedAt": 1763644754171,
+      "listingsCount": 3,
+      "phone": "+998 90 123 4567",
+      "verified": 1
+    },
+    {
+      "id": "user_bob",
+      "name": "Bobur Umarov",
+      "email": "bob@demo.com",
+      "password": "$2a$10$qdp2wBMGc8edIvqy2fTemeNFg69KNFRKmsH3XvZy8RN/Jq5WO5Sae",
+      "region": "Samarkand",
+      "bio": "Tech enthusiast upgrading my gear.",
+      "rating": 4.5,
+      "reviewCount": 15,
+      "joinedAt": 1766236754171,
+      "listingsCount": 3,
+      "phone": "+998 91 234 5678",
+      "verified": 1
+    },
+    {
+      "id": "user_carol",
+      "name": "Kamola Nazarova",
+      "email": "carol@demo.com",
+      "password": "$2a$10$qdp2wBMGc8edIvqy2fTemeNFg69KNFRKmsH3XvZy8RN/Jq5WO5Sae",
+      "region": "Fergana",
+      "bio": "Minimalist on a mission to declutter!",
+      "rating": 4.9,
+      "reviewCount": 31,
+      "joinedAt": 1756732754171,
+      "listingsCount": 3,
+      "phone": "+998 93 345 6789",
+      "verified": 1
+    },
+    {
+      "id": "user_dima",
+      "name": "Dima Aliyev",
+      "email": "dima@demo.com",
+      "password": "$2a$10$qdp2wBMGc8edIvqy2fTemeNFg69KNFRKmsH3XvZy8RN/Jq5WO5Sae",
+      "region": "Bukhara",
+      "bio": "Sneakerhead from Bukhara.",
+      "rating": 4.7,
+      "reviewCount": 19,
+      "joinedAt": 1768828754171,
+      "listingsCount": 3,
+      "phone": "+998 94 456 7890",
+      "verified": 1
+    },
+    {
+      "id": "user_elena",
+      "name": "Elena Rashidova",
+      "email": "elena@demo.com",
+      "password": "$2a$10$qdp2wBMGc8edIvqy2fTemeNFg69KNFRKmsH3XvZy8RN/Jq5WO5Sae",
+      "region": "Namangan",
+      "bio": "Mom of two clearing out the family wardrobe.",
+      "rating": 4.6,
+      "reviewCount": 12,
+      "joinedAt": 1770124754171,
+      "listingsCount": 4,
+      "phone": "+998 97 567 8901",
+      "verified": 0
+    },
+    {
+      "id": "mmyxgrkn2heisfo95",
+      "name": "Anvar",
+      "email": "smth07@gmail.com",
+      "password": "$2a$10$mX.loc7gqJ9uMS/GBbu6vO81Z8NVmfOQydbQitUdyN8FvbYyQg7/C",
+      "region": "Samarkand",
+      "bio": "",
+      "rating": 0,
+      "reviewCount": 0,
+      "joinedAt": 1774012881047,
+      "listingsCount": 0,
+      "phone": "",
+      "verified": 0
+    }
+  ],
+  "products": [
+    {
+      "id": "mmyxhwp5hpp0rb9lt",
+      "title": "Irij",
+      "description": "Hdjfidn",
+      "price": 120000,
+      "category": "m_bags_m",
+      "brand": "Irjdh",
+      "condition": "Like New",
+      "size": "U",
+      "material": "",
+      "color": "",
+      "images": [
+        "/uploads/product-1774012931508-403701150.jpg",
+        "/uploads/product-1774012931782-5684312.jpg"
+      ],
+      "sellerId": "user_elena",
+      "sold": true,
+      "createdAt": 1774012934345,
+      "views": 0,
+      "soldAt": 1774012990311
+    },
+    {
+      "id": "prod_1",
+      "title": "Red Evening Dress",
+      "description": "Stunning red evening dress, worn once. Perfect for formal events.",
+      "price": 549000,
+      "category": "w_dresses",
+      "brand": "Zara",
+      "condition": "Like New",
+      "size": "M",
+      "images": [
+        "/uploads/seed-dress_red-1.svg",
+        "/uploads/seed-dress_red-2.svg"
+      ],
+      "sellerId": "user_alice",
+      "material": "",
+      "color": "",
+      "sold": true,
+      "createdAt": 1773990921399,
+      "views": 2,
+      "soldAt": 1774014102024
+    },
+    {
+      "id": "prod_10",
+      "title": "Brown Chelsea Boots",
+      "description": "Suede Chelsea boots in rich brown. Versatile and stylish.",
+      "price": 914000,
+      "category": "m_boots",
+      "brand": "Clarks",
+      "condition": "Like New",
+      "size": "43",
+      "images": [
+        "/uploads/seed-boots_brown-1.svg",
+        "/uploads/seed-boots_brown-2.svg"
+      ],
+      "sellerId": "user_alice",
+      "material": "",
+      "color": "",
+      "sold": true,
+      "createdAt": 1773781303203,
+      "views": 7,
+      "soldAt": 1774014191147
+    },
+    {
+      "id": "prod_11",
+      "title": "Cream Cable-Knit Sweater",
+      "description": "Cozy cream cable-knit sweater, perfect for layering.",
+      "price": 427000,
+      "category": "w_sweaters",
+      "brand": "COS",
+      "condition": "New",
+      "size": "M",
+      "images": [
+        "/uploads/seed-sweater_cream-1.svg",
+        "/uploads/seed-sweater_cream-2.svg"
+      ],
+      "sellerId": "user_elena",
+      "material": "",
+      "color": "",
+      "sold": false,
+      "createdAt": 1773757686206,
+      "views": 70
+    },
+    {
+      "id": "prod_12",
+      "title": "Camel Wool Coat",
+      "description": "Elegant camel wool coat, knee-length. Classic silhouette.",
+      "price": 1158000,
+      "category": "w_coats",
+      "brand": "Max Mara",
+      "condition": "Like New",
+      "size": "M",
+      "images": [
+        "/uploads/seed-coat_camel-1.svg",
+        "/uploads/seed-coat_camel-2.svg"
+      ],
+      "sellerId": "user_carol",
+      "material": "",
+      "color": "",
+      "sold": true,
+      "createdAt": 1773411814784,
+      "views": 14,
+      "soldAt": 1774013050136
+    },
+    {
+      "id": "prod_7",
+      "title": "Leather Biker Jacket",
+      "description": "Genuine leather biker jacket, broken in beautifully. Timeless style.",
+      "price": 1463000,
+      "category": "m_jackets",
+      "brand": "AllSaints",
+      "condition": "Good",
+      "size": "M",
+      "images": [
+        "/uploads/seed-jacket_leather-1.svg",
+        "/uploads/seed-jacket_leather-2.svg"
+      ],
+      "sellerId": "user_bob",
+      "material": "",
+      "color": "",
+      "sold": false,
+      "createdAt": 1773336030435,
+      "views": 43
+    },
+    {
+      "id": "prod_14",
+      "title": "Denim Puffer Vest",
+      "description": "Trendy denim puffer vest, great for transitional weather.",
+      "price": 488000,
+      "category": "w_vests",
+      "brand": "Bershka",
+      "condition": "New",
+      "size": "S",
+      "images": [
+        "/uploads/seed-vest_denim-1.svg",
+        "/uploads/seed-vest_denim-2.svg"
+      ],
+      "sellerId": "user_dima",
+      "material": "",
+      "color": "",
+      "sold": false,
+      "createdAt": 1773323994674,
+      "views": 62
+    },
+    {
+      "id": "prod_5",
+      "title": "Oversized Gray Hoodie",
+      "description": "Super comfortable oversized hoodie. Soft cotton blend.",
+      "price": 305000,
+      "category": "m_hoodies",
+      "brand": "Uniqlo",
+      "condition": "Good",
+      "size": "XL",
+      "images": [
+        "/uploads/seed-hoodie_gray-1.svg",
+        "/uploads/seed-hoodie_gray-2.svg"
+      ],
+      "sellerId": "user_alice",
+      "material": "",
+      "color": "",
+      "sold": false,
+      "createdAt": 1773259019710,
+      "views": 15
+    },
+    {
+      "id": "prod_15",
+      "title": "Pink Girls Romper",
+      "description": "Adorable pink romper for girls (age 4-6). Soft cotton.",
+      "price": 146000,
+      "category": "k_g_clothing",
+      "brand": "Carter's",
+      "condition": "Like New",
+      "size": "5Y",
+      "images": [
+        "/uploads/seed-romper_pink-1.svg",
+        "/uploads/seed-romper_pink-2.svg"
+      ],
+      "sellerId": "user_elena",
+      "material": "",
+      "color": "",
+      "sold": false,
+      "createdAt": 1773077578258,
+      "views": 77
+    },
+    {
+      "id": "prod_6",
+      "title": "Floral Summer Skirt",
+      "description": "Light floral skirt, perfect for summer days. Flowy fabric.",
+      "price": 244000,
+      "category": "w_skirts",
+      "brand": "Mango",
+      "condition": "New",
+      "size": "S",
+      "images": [
+        "/uploads/seed-skirt_floral-1.svg",
+        "/uploads/seed-skirt_floral-2.svg"
+      ],
+      "sellerId": "user_elena",
+      "material": "",
+      "color": "",
+      "sold": false,
+      "createdAt": 1772870670018,
+      "views": 76
+    },
+    {
+      "id": "prod_8",
+      "title": "Black Graphic Tee",
+      "description": "Minimalist black t-shirt with subtle graphic print.",
+      "price": 183000,
+      "category": "m_graphic_tees",
+      "brand": "Stüssy",
+      "condition": "Good",
+      "size": "L",
+      "images": [
+        "/uploads/seed-tshirt_black-1.svg",
+        "/uploads/seed-tshirt_black-2.svg"
+      ],
+      "sellerId": "user_carol",
+      "material": "",
+      "color": "",
+      "sold": false,
+      "createdAt": 1772858816789,
+      "views": 15
+    },
+    {
+      "id": "prod_3",
+      "title": "Vintage Blue Jeans",
+      "description": "High-waisted vintage blue jeans, perfectly broken in.",
+      "price": 366000,
+      "category": "w_jeans",
+      "brand": "Levi's",
+      "condition": "Good",
+      "size": "28",
+      "images": [
+        "/uploads/seed-jeans_blue-1.svg",
+        "/uploads/seed-jeans_blue-2.svg"
+      ],
+      "sellerId": "user_carol",
+      "material": "",
+      "color": "",
+      "sold": false,
+      "createdAt": 1772557731669,
+      "views": 43
+    },
+    {
+      "id": "prod_13",
+      "title": "Green Polo Shirt",
+      "description": "Classic green polo shirt, breathable piqué cotton.",
+      "price": 268000,
+      "category": "m_polo_shirts",
+      "brand": "Ralph Lauren",
+      "condition": "Good",
+      "size": "L",
+      "images": [
+        "/uploads/seed-polo_green-1.svg",
+        "/uploads/seed-polo_green-2.svg"
+      ],
+      "sellerId": "user_bob",
+      "material": "",
+      "color": "",
+      "sold": false,
+      "createdAt": 1772340902871,
+      "views": 19
+    },
+    {
+      "id": "prod_2",
+      "title": "Navy Slim Blazer",
+      "description": "Classic navy blazer, tailored slim fit. Great for office or events.",
+      "price": 792000,
+      "category": "m_blazers",
+      "brand": "H&M",
+      "condition": "Good",
+      "size": "L",
+      "images": [
+        "/uploads/seed-blazer_navy-1.svg",
+        "/uploads/seed-blazer_navy-2.svg"
+      ],
+      "sellerId": "user_bob",
+      "material": "",
+      "color": "",
+      "sold": false,
+      "createdAt": 1772181762281,
+      "views": 94
+    },
+    {
+      "id": "prod_4",
+      "title": "White Leather Sneakers",
+      "description": "Clean white leather sneakers, barely worn. Unisex style.",
+      "price": 670000,
+      "category": "m_sneakers",
+      "brand": "Nike",
+      "condition": "Like New",
+      "size": "42",
+      "images": [
+        "/uploads/seed-sneakers_white-1.svg",
+        "/uploads/seed-sneakers_white-2.svg"
+      ],
+      "sellerId": "user_dima",
+      "material": "",
+      "color": "",
+      "sold": false,
+      "createdAt": 1771652139811,
+      "views": 90
+    },
+    {
+      "id": "prod_9",
+      "title": "Khaki Chino Shorts",
+      "description": "Classic khaki chino shorts for casual summer wear.",
+      "price": 219000,
+      "category": "m_shorts",
+      "brand": "Gap",
+      "condition": "Good",
+      "size": "M",
+      "images": [
+        "/uploads/seed-shorts_khaki-1.svg",
+        "/uploads/seed-shorts_khaki-2.svg"
+      ],
+      "sellerId": "user_dima",
+      "material": "",
+      "color": "",
+      "sold": false,
+      "createdAt": 1771639585636,
+      "views": 67
+    }
+  ],
+  "orders": [
+    {
+      "id": "mmyxj3vr5tma2ml0b",
+      "productId": "mmyxhwp5hpp0rb9lt",
+      "buyerId": "mmyxgrkn2heisfo95",
+      "sellerId": "user_elena",
+      "status": "completed",
+      "pricing": {
+        "itemPrice": 120000,
+        "protectionFee": 6000,
+        "shippingCost": 30000,
+        "salesTax": 12000,
+        "platformFee": 6000,
+        "buyerPays": 154400,
+        "sellerGets": 116400
+      },
+      "shipping": {
+        "cost": 30000,
+        "estimatedSeconds": 12,
+        "label": "Medium distance",
+        "distance": 3,
+        "fromRegion": "Namangan",
+        "toRegion": "Samarkand"
+      },
+      "paymentDetails": {
+        "cardNumber": "5554",
+        "cardExpiry": "88/76",
+        "cardName": "Anvar"
+      },
+      "statusHistory": [
+        {
+          "status": "paid",
+          "timestamp": 1774012990311,
+          "note": "Payment received"
+        },
+        {
+          "status": "shipped",
+          "timestamp": 1774012995319,
+          "note": "shipped"
+        },
+        {
+          "status": "delivered",
+          "timestamp": 1774013003329,
+          "note": "delivered"
+        },
+        {
+          "status": "completed",
+          "timestamp": 1774013009844,
+          "note": "Buyer confirmed receipt"
+        }
+      ],
+      "createdAt": 1774012990311,
+      "updatedAt": 1774013009844,
+      "deliveredAt": 1774013003329,
+      "disputeId": null,
+      "sellerPaidOut": true
+    },
+    {
+      "id": "mmyxke1kbx2e2oj81",
+      "productId": "prod_12",
+      "buyerId": "mmyxgrkn2heisfo95",
+      "sellerId": "user_carol",
+      "status": "disputed",
+      "pricing": {
+        "itemPrice": 1158000,
+        "protectionFee": 57900,
+        "shippingCost": 35000,
+        "salesTax": 115800,
+        "platformFee": 57900,
+        "buyerPays": 1218160,
+        "sellerGets": 1123260
+      },
+      "shipping": {
+        "cost": 35000,
+        "estimatedSeconds": 18,
+        "label": "Long distance",
+        "distance": 4,
+        "fromRegion": "Fergana",
+        "toRegion": "Samarkand"
+      },
+      "paymentDetails": {
+        "cardNumber": "7777",
+        "cardExpiry": "92/27",
+        "cardName": "Anvar"
+      },
+      "statusHistory": [
+        {
+          "status": "paid",
+          "timestamp": 1774013050136,
+          "note": "Payment received"
+        },
+        {
+          "status": "shipped",
+          "timestamp": 1774013055137,
+          "note": "shipped"
+        },
+        {
+          "status": "delivered",
+          "timestamp": 1774013063145,
+          "note": "delivered"
+        },
+        {
+          "status": "disputed",
+          "timestamp": 1774013139057,
+          "note": "Issue reported: not received"
+        }
+      ],
+      "createdAt": 1774013050136,
+      "updatedAt": 1774013139057,
+      "deliveredAt": 1774013063145,
+      "disputeId": "mmyxmanlxafumityu",
+      "sellerPaidOut": false
+    },
+    {
+      "id": "mmyy6xoosnua9abfo",
+      "productId": "prod_1",
+      "buyerId": "mmyxgrkn2heisfo95",
+      "sellerId": "user_alice",
+      "status": "disputed",
+      "pricing": {
+        "itemPrice": 549000,
+        "protectionFee": 27450,
+        "shippingCost": 30000,
+        "salesTax": 54900,
+        "platformFee": 27450,
+        "buyerPays": 591980,
+        "sellerGets": 532530
+      },
+      "shipping": {
+        "cost": 30000,
+        "estimatedSeconds": 12,
+        "label": "Medium distance",
+        "distance": 3,
+        "fromRegion": "Tashkent",
+        "toRegion": "Samarkand"
+      },
+      "paymentDetails": {
+        "cardNumber": "4444",
+        "cardExpiry": "73/73",
+        "cardName": "Anvar"
+      },
+      "statusHistory": [
+        {
+          "status": "paid",
+          "timestamp": 1774014102024,
+          "note": "Payment received"
+        },
+        {
+          "status": "shipped",
+          "timestamp": 1774014107039,
+          "note": "shipped"
+        },
+        {
+          "status": "delivered",
+          "timestamp": 1774014115042,
+          "note": "delivered"
+        },
+        {
+          "status": "disputed",
+          "timestamp": 1774014123390,
+          "note": "Issue reported: damaged"
+        }
+      ],
+      "createdAt": 1774014102024,
+      "updatedAt": 1774014123390,
+      "deliveredAt": 1774014115042,
+      "disputeId": "mmyy7e66fl1hd8gli",
+      "sellerPaidOut": false
+    },
+    {
+      "id": "mmyy8ugbzbyq5o8z0",
+      "productId": "prod_10",
+      "buyerId": "mmyxgrkn2heisfo95",
+      "sellerId": "user_alice",
+      "status": "refunded",
+      "pricing": {
+        "itemPrice": 914000,
+        "protectionFee": 45700,
+        "shippingCost": 30000,
+        "salesTax": 91400,
+        "platformFee": 45700,
+        "buyerPays": 964280,
+        "sellerGets": 886580
+      },
+      "shipping": {
+        "cost": 30000,
+        "estimatedSeconds": 12,
+        "label": "Medium distance",
+        "distance": 3,
+        "fromRegion": "Tashkent",
+        "toRegion": "Samarkand"
+      },
+      "paymentDetails": {
+        "cardNumber": "5888",
+        "cardExpiry": "56/77",
+        "cardName": "Anvar"
+      },
+      "statusHistory": [
+        {
+          "status": "paid",
+          "timestamp": 1774014191147,
+          "note": "Payment received"
+        },
+        {
+          "status": "shipped",
+          "timestamp": 1774014196155,
+          "note": "shipped"
+        },
+        {
+          "status": "delivered",
+          "timestamp": 1774014204168,
+          "note": "delivered"
+        },
+        {
+          "status": "disputed",
+          "timestamp": 1774014210212,
+          "note": "Issue reported: damaged"
+        },
+        {
+          "status": "refunded",
+          "timestamp": 1774014235237,
+          "note": "Full refund: $1081100"
+        }
+      ],
+      "createdAt": 1774014191147,
+      "updatedAt": 1774014235237,
+      "deliveredAt": 1774014204168,
+      "disputeId": "mmyy995wwd5dg3283",
+      "sellerPaidOut": false
+    }
+  ],
+  "disputes": [
+    {
+      "id": "mmyxmanlxafumityu",
+      "orderId": "mmyxke1kbx2e2oj81",
+      "reason": "not_received",
+      "description": "Item not received",
+      "status": "open",
+      "buyerId": "mmyxgrkn2heisfo95",
+      "sellerId": "user_carol",
+      "sellerResponse": null,
+      "partialAmount": null,
+      "createdAt": 1774013139057
+    },
+    {
+      "id": "mmyy7e66fl1hd8gli",
+      "orderId": "mmyy6xoosnua9abfo",
+      "reason": "damaged",
+      "description": "Item damaged",
+      "status": "open",
+      "buyerId": "mmyxgrkn2heisfo95",
+      "sellerId": "user_alice",
+      "sellerResponse": null,
+      "partialAmount": null,
+      "createdAt": 1774014123390
+    },
+    {
+      "id": "mmyy995wwd5dg3283",
+      "orderId": "mmyy8ugbzbyq5o8z0",
+      "reason": "damaged",
+      "description": "Item damaged",
+      "status": "resolved_refund",
+      "buyerId": "mmyxgrkn2heisfo95",
+      "sellerId": "user_alice",
+      "sellerResponse": "accept_return",
+      "partialAmount": null,
+      "createdAt": 1774014210212,
+      "respondedAt": 1774014218697,
+      "returnShippedAt": 1774014225220,
+      "resolvedAt": 1774014235236,
+      "refundBreakdown": {
+        "itemRefund": 914000,
+        "protectionRefund": 45700,
+        "shippingRefund": 30000,
+        "taxRefund": 91400,
+        "total": 1081100
+      }
+    }
+  ],
+  "conversations": [
+    {
+      "id": "mmyxj3vse3njafym3",
+      "orderId": "mmyxj3vr5tma2ml0b",
+      "productId": "mmyxhwp5hpp0rb9lt",
+      "buyerId": "mmyxgrkn2heisfo95",
+      "sellerId": "user_elena",
+      "escalated": false,
+      "createdAt": 1774012990311,
+      "updatedAt": 1774013020407,
+      "messages": [
+        {
+          "id": "mmyxj3vsmdggiuyvn",
+          "conversationId": "mmyxj3vse3njafym3",
+          "senderId": "__system__",
+          "text": "💳 Payment confirmed — $154400.00 paid for \"Irij\".",
+          "type": "system",
+          "subtype": "success",
+          "timestamp": 1774012990311
+        },
+        {
+          "id": "mmyxj7qvuol1ydry1",
+          "conversationId": "mmyxj3vse3njafym3",
+          "senderId": "__system__",
+          "text": "📦 Item shipped! Tracking: UZLZGS7Q77",
+          "type": "system",
+          "subtype": "info",
+          "timestamp": 1774012995319
+        },
+        {
+          "id": "mmyxjdxd543tsg2mq",
+          "conversationId": "mmyxj3vse3njafym3",
+          "senderId": "__system__",
+          "text": "✅ Item delivered! You have 2 days to confirm or report an issue.",
+          "type": "system",
+          "subtype": "success",
+          "timestamp": 1774013003329
+        },
+        {
+          "id": "mmyxjiycboughxg39",
+          "conversationId": "mmyxj3vse3njafym3",
+          "senderId": "__system__",
+          "text": "✅ Buyer confirmed receipt. Order complete! Seller payout released.",
+          "type": "system",
+          "subtype": "success",
+          "timestamp": 1774013009844
+        },
+        {
+          "id": "mmyxjmwu07d2gdl5v",
+          "conversationId": "mmyxj3vse3njafym3",
+          "senderId": "mmyxgrkn2heisfo95",
+          "text": "Ok",
+          "type": "user",
+          "subtype": null,
+          "offerId": null,
+          "offerAmount": null,
+          "offerStatus": null,
+          "isCounter": false,
+          "timestamp": 1774013014974
+        },
+        {
+          "id": "mmyxjr3rhn6bx9tpe",
+          "conversationId": "mmyxj3vse3njafym3",
+          "senderId": "user_elena",
+          "text": "Jfjfh",
+          "type": "user",
+          "subtype": null,
+          "offerId": null,
+          "offerAmount": null,
+          "offerStatus": null,
+          "isCounter": false,
+          "timestamp": 1774013020407
+        }
+      ]
+    },
+    {
+      "id": "mmyxke1kw91sx0mv6",
+      "orderId": "mmyxke1kbx2e2oj81",
+      "productId": "prod_12",
+      "buyerId": "mmyxgrkn2heisfo95",
+      "sellerId": "user_carol",
+      "escalated": false,
+      "createdAt": 1774013050136,
+      "updatedAt": 1774013139057,
+      "messages": [
+        {
+          "id": "mmyxke1k25hm7tvxj",
+          "conversationId": "mmyxke1kw91sx0mv6",
+          "senderId": "__system__",
+          "text": "💳 Payment confirmed — $1218160.00 paid for \"Camel Wool Coat\".",
+          "type": "system",
+          "subtype": "success",
+          "timestamp": 1774013050136
+        },
+        {
+          "id": "mmyxkhwhy471i3719",
+          "conversationId": "mmyxke1kw91sx0mv6",
+          "senderId": "__system__",
+          "text": "📦 Item shipped! Tracking: UZILAUQ2QZ",
+          "type": "system",
+          "subtype": "info",
+          "timestamp": 1774013055137
+        },
+        {
+          "id": "mmyxko2x7lwzn3xcw",
+          "conversationId": "mmyxke1kw91sx0mv6",
+          "senderId": "__system__",
+          "text": "✅ Item delivered! You have 2 days to confirm or report an issue.",
+          "type": "system",
+          "subtype": "success",
+          "timestamp": 1774013063145
+        },
+        {
+          "id": "mmyxmanls9wjbba33",
+          "conversationId": "mmyxke1kw91sx0mv6",
+          "senderId": "__system__",
+          "text": "⚠️ Issue reported: not received. Payment is held until resolved.",
+          "type": "system",
+          "subtype": "warning",
+          "timestamp": 1774013139057
+        }
+      ]
+    },
+    {
+      "id": "mmyy6xoolx1ivv9in",
+      "orderId": "mmyy6xoosnua9abfo",
+      "productId": "prod_1",
+      "buyerId": "mmyxgrkn2heisfo95",
+      "sellerId": "user_alice",
+      "escalated": false,
+      "createdAt": 1774014102024,
+      "updatedAt": 1774014123390,
+      "messages": [
+        {
+          "id": "mmyy6xoose733eal7",
+          "conversationId": "mmyy6xoolx1ivv9in",
+          "senderId": "__system__",
+          "text": "💳 Payment confirmed — $591980.00 paid for \"Red Evening Dress\".",
+          "type": "system",
+          "subtype": "success",
+          "timestamp": 1774014102024
+        },
+        {
+          "id": "mmyy71jzjru273opr",
+          "conversationId": "mmyy6xoolx1ivv9in",
+          "senderId": "__system__",
+          "text": "📦 Item shipped! Tracking: UZK5DGC9PE",
+          "type": "system",
+          "subtype": "info",
+          "timestamp": 1774014107039
+        },
+        {
+          "id": "mmyy77qai9aga4uo6",
+          "conversationId": "mmyy6xoolx1ivv9in",
+          "senderId": "__system__",
+          "text": "✅ Item delivered! You have 2 days to confirm or report an issue.",
+          "type": "system",
+          "subtype": "success",
+          "timestamp": 1774014115042
+        },
+        {
+          "id": "mmyy7e66mfzgcboq9",
+          "conversationId": "mmyy6xoolx1ivv9in",
+          "senderId": "__system__",
+          "text": "⚠️ Issue reported: damaged. Payment is held until resolved.",
+          "type": "system",
+          "subtype": "warning",
+          "timestamp": 1774014123390
+        }
+      ]
+    },
+    {
+      "id": "mmyy8ugbk4z0z7l6r",
+      "orderId": "mmyy8ugbzbyq5o8z0",
+      "productId": "prod_10",
+      "buyerId": "mmyxgrkn2heisfo95",
+      "sellerId": "user_alice",
+      "escalated": false,
+      "createdAt": 1774014191147,
+      "updatedAt": 1774014235237,
+      "messages": [
+        {
+          "id": "mmyy8ugbw04ptken4",
+          "conversationId": "mmyy8ugbk4z0z7l6r",
+          "senderId": "__system__",
+          "text": "💳 Payment confirmed — $964280.00 paid for \"Brown Chelsea Boots\".",
+          "type": "system",
+          "subtype": "success",
+          "timestamp": 1774014191147
+        },
+        {
+          "id": "mmyy8ybf3263nx4u1",
+          "conversationId": "mmyy8ugbk4z0z7l6r",
+          "senderId": "__system__",
+          "text": "📦 Item shipped! Tracking: UZT5RC11D0",
+          "type": "system",
+          "subtype": "info",
+          "timestamp": 1774014196155
+        },
+        {
+          "id": "mmyy94i0dl9m4cw26",
+          "conversationId": "mmyy8ugbk4z0z7l6r",
+          "senderId": "__system__",
+          "text": "✅ Item delivered! You have 2 days to confirm or report an issue.",
+          "type": "system",
+          "subtype": "success",
+          "timestamp": 1774014204168
+        },
+        {
+          "id": "mmyy995wm1vaubdwu",
+          "conversationId": "mmyy8ugbk4z0z7l6r",
+          "senderId": "__system__",
+          "text": "⚠️ Issue reported: damaged. Payment is held until resolved.",
+          "type": "system",
+          "subtype": "warning",
+          "timestamp": 1774014210212
+        },
+        {
+          "id": "mmyy9fplcln34ly9r",
+          "conversationId": "mmyy8ugbk4z0z7l6r",
+          "senderId": "__system__",
+          "text": "📦 Seller accepted the return. Please ship the item back.",
+          "type": "system",
+          "subtype": "info",
+          "timestamp": 1774014218697
+        },
+        {
+          "id": "mmyy9kqt2i2rmtllh",
+          "conversationId": "mmyy8ugbk4z0z7l6r",
+          "senderId": "__system__",
+          "text": "📦 Return shipped. You will receive a full refund once the item is received.",
+          "type": "system",
+          "subtype": "info",
+          "timestamp": 1774014225221
+        },
+        {
+          "id": "mmyy9sh1i34o4qok4",
+          "conversationId": "mmyy8ugbk4z0z7l6r",
+          "senderId": "__system__",
+          "text": "✅ Return received. Full refund: $914000.00 (item) + $45700.00 (protection) + $30000.00 (shipping) + $91400.00 (tax) = $1081100.00",
+          "type": "system",
+          "subtype": "success",
+          "timestamp": 1774014235237
+        }
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": "mmyxj3vsmdggiuyvn",
+      "conversationId": "mmyxj3vse3njafym3",
+      "senderId": "__system__",
+      "text": "💳 Payment confirmed — $154400.00 paid for \"Irij\".",
+      "type": "system",
+      "subtype": "success",
+      "timestamp": 1774012990311
+    },
+    {
+      "id": "mmyxj7qvuol1ydry1",
+      "conversationId": "mmyxj3vse3njafym3",
+      "senderId": "__system__",
+      "text": "📦 Item shipped! Tracking: UZLZGS7Q77",
+      "type": "system",
+      "subtype": "info",
+      "timestamp": 1774012995319
+    },
+    {
+      "id": "mmyxjdxd543tsg2mq",
+      "conversationId": "mmyxj3vse3njafym3",
+      "senderId": "__system__",
+      "text": "✅ Item delivered! You have 2 days to confirm or report an issue.",
+      "type": "system",
+      "subtype": "success",
+      "timestamp": 1774013003329
+    },
+    {
+      "id": "mmyxjiycboughxg39",
+      "conversationId": "mmyxj3vse3njafym3",
+      "senderId": "__system__",
+      "text": "✅ Buyer confirmed receipt. Order complete! Seller payout released.",
+      "type": "system",
+      "subtype": "success",
+      "timestamp": 1774013009844
+    },
+    {
+      "id": "mmyxjmwu07d2gdl5v",
+      "conversationId": "mmyxj3vse3njafym3",
+      "senderId": "mmyxgrkn2heisfo95",
+      "text": "Ok",
+      "type": "user",
+      "subtype": null,
+      "offerId": null,
+      "offerAmount": null,
+      "offerStatus": null,
+      "isCounter": false,
+      "timestamp": 1774013014974
+    },
+    {
+      "id": "mmyxjr3rhn6bx9tpe",
+      "conversationId": "mmyxj3vse3njafym3",
+      "senderId": "user_elena",
+      "text": "Jfjfh",
+      "type": "user",
+      "subtype": null,
+      "offerId": null,
+      "offerAmount": null,
+      "offerStatus": null,
+      "isCounter": false,
+      "timestamp": 1774013020407
+    },
+    {
+      "id": "mmyxke1k25hm7tvxj",
+      "conversationId": "mmyxke1kw91sx0mv6",
+      "senderId": "__system__",
+      "text": "💳 Payment confirmed — $1218160.00 paid for \"Camel Wool Coat\".",
+      "type": "system",
+      "subtype": "success",
+      "timestamp": 1774013050136
+    },
+    {
+      "id": "mmyxkhwhy471i3719",
+      "conversationId": "mmyxke1kw91sx0mv6",
+      "senderId": "__system__",
+      "text": "📦 Item shipped! Tracking: UZILAUQ2QZ",
+      "type": "system",
+      "subtype": "info",
+      "timestamp": 1774013055137
+    },
+    {
+      "id": "mmyxko2x7lwzn3xcw",
+      "conversationId": "mmyxke1kw91sx0mv6",
+      "senderId": "__system__",
+      "text": "✅ Item delivered! You have 2 days to confirm or report an issue.",
+      "type": "system",
+      "subtype": "success",
+      "timestamp": 1774013063145
+    },
+    {
+      "id": "mmyxmanls9wjbba33",
+      "conversationId": "mmyxke1kw91sx0mv6",
+      "senderId": "__system__",
+      "text": "⚠️ Issue reported: not received. Payment is held until resolved.",
+      "type": "system",
+      "subtype": "warning",
+      "timestamp": 1774013139057
+    },
+    {
+      "id": "mmyy6xoose733eal7",
+      "conversationId": "mmyy6xoolx1ivv9in",
+      "senderId": "__system__",
+      "text": "💳 Payment confirmed — $591980.00 paid for \"Red Evening Dress\".",
+      "type": "system",
+      "subtype": "success",
+      "timestamp": 1774014102024
+    },
+    {
+      "id": "mmyy71jzjru273opr",
+      "conversationId": "mmyy6xoolx1ivv9in",
+      "senderId": "__system__",
+      "text": "📦 Item shipped! Tracking: UZK5DGC9PE",
+      "type": "system",
+      "subtype": "info",
+      "timestamp": 1774014107039
+    },
+    {
+      "id": "mmyy77qai9aga4uo6",
+      "conversationId": "mmyy6xoolx1ivv9in",
+      "senderId": "__system__",
+      "text": "✅ Item delivered! You have 2 days to confirm or report an issue.",
+      "type": "system",
+      "subtype": "success",
+      "timestamp": 1774014115042
+    },
+    {
+      "id": "mmyy7e66mfzgcboq9",
+      "conversationId": "mmyy6xoolx1ivv9in",
+      "senderId": "__system__",
+      "text": "⚠️ Issue reported: damaged. Payment is held until resolved.",
+      "type": "system",
+      "subtype": "warning",
+      "timestamp": 1774014123390
+    },
+    {
+      "id": "mmyy8ugbw04ptken4",
+      "conversationId": "mmyy8ugbk4z0z7l6r",
+      "senderId": "__system__",
+      "text": "💳 Payment confirmed — $964280.00 paid for \"Brown Chelsea Boots\".",
+      "type": "system",
+      "subtype": "success",
+      "timestamp": 1774014191147
+    },
+    {
+      "id": "mmyy8ybf3263nx4u1",
+      "conversationId": "mmyy8ugbk4z0z7l6r",
+      "senderId": "__system__",
+      "text": "📦 Item shipped! Tracking: UZT5RC11D0",
+      "type": "system",
+      "subtype": "info",
+      "timestamp": 1774014196155
+    },
+    {
+      "id": "mmyy94i0dl9m4cw26",
+      "conversationId": "mmyy8ugbk4z0z7l6r",
+      "senderId": "__system__",
+      "text": "✅ Item delivered! You have 2 days to confirm or report an issue.",
+      "type": "system",
+      "subtype": "success",
+      "timestamp": 1774014204168
+    },
+    {
+      "id": "mmyy995wm1vaubdwu",
+      "conversationId": "mmyy8ugbk4z0z7l6r",
+      "senderId": "__system__",
+      "text": "⚠️ Issue reported: damaged. Payment is held until resolved.",
+      "type": "system",
+      "subtype": "warning",
+      "timestamp": 1774014210212
+    },
+    {
+      "id": "mmyy9fplcln34ly9r",
+      "conversationId": "mmyy8ugbk4z0z7l6r",
+      "senderId": "__system__",
+      "text": "📦 Seller accepted the return. Please ship the item back.",
+      "type": "system",
+      "subtype": "info",
+      "timestamp": 1774014218697
+    },
+    {
+      "id": "mmyy9kqt2i2rmtllh",
+      "conversationId": "mmyy8ugbk4z0z7l6r",
+      "senderId": "__system__",
+      "text": "📦 Return shipped. You will receive a full refund once the item is received.",
+      "type": "system",
+      "subtype": "info",
+      "timestamp": 1774014225221
+    },
+    {
+      "id": "mmyy9sh1i34o4qok4",
+      "conversationId": "mmyy8ugbk4z0z7l6r",
+      "senderId": "__system__",
+      "text": "✅ Return received. Full refund: $914000.00 (item) + $45700.00 (protection) + $30000.00 (shipping) + $91400.00 (tax) = $1081100.00",
+      "type": "system",
+      "subtype": "success",
+      "timestamp": 1774014235237
+    }
+  ],
+  "notifications": [
+    {
+      "id": "mmyxj3vsip5ovgpka",
+      "userId": "user_elena",
+      "type": "purchase",
+      "title": "New order!",
+      "message": "Anvar purchased your \"Irij\" — $116400.00",
+      "link": "/chat/mmyxj3vr5tma2ml0b",
+      "read": 0,
+      "createdAt": 1774012990311
+    },
+    {
+      "id": "mmyxjmwv582be4fub",
+      "userId": "user_elena",
+      "type": "message",
+      "title": "Anvar",
+      "message": "Ok",
+      "link": "/chat/mmyxj3vr5tma2ml0b",
+      "read": 0,
+      "createdAt": 1774013014974
+    },
+    {
+      "id": "mmyxjr3rbqphhqujg",
+      "userId": "mmyxgrkn2heisfo95",
+      "type": "message",
+      "title": "Elena Rashidova",
+      "message": "Jfjfh",
+      "link": "/chat/mmyxj3vr5tma2ml0b",
+      "read": 1,
+      "createdAt": 1774013020407
+    },
+    {
+      "id": "mmyxke1ke5mhfzo7b",
+      "userId": "user_carol",
+      "type": "purchase",
+      "title": "New order!",
+      "message": "Anvar purchased your \"Camel Wool Coat\" — $1123260.00",
+      "link": "/chat/mmyxke1kbx2e2oj81",
+      "read": 0,
+      "createdAt": 1774013050136
+    },
+    {
+      "id": "mmyy6xoog9qv109uj",
+      "userId": "user_alice",
+      "type": "purchase",
+      "title": "New order!",
+      "message": "Anvar purchased your \"Red Evening Dress\" — $532530.00",
+      "link": "/chat/mmyy6xoosnua9abfo",
+      "read": 0,
+      "createdAt": 1774014102024
+    },
+    {
+      "id": "mmyy8ugbyykz0s4d6",
+      "userId": "user_alice",
+      "type": "purchase",
+      "title": "New order!",
+      "message": "Anvar purchased your \"Brown Chelsea Boots\" — $886580.00",
+      "link": "/chat/mmyy8ugbzbyq5o8z0",
+      "read": 0,
+      "createdAt": 1774014191147
+    }
+  ],
+  "offers": [],
+  "favorites": [],
+  "lastRead": [
+    {
+      "conversationId": "mmyxj3vse3njafym3",
+      "userId": "mmyxgrkn2heisfo95",
+      "timestamp": 1774013918205
+    },
+    {
+      "conversationId": "mmyxj3vse3njafym3",
+      "userId": "user_elena",
+      "timestamp": 1774013020436
+    },
+    {
+      "conversationId": "mmyxke1kw91sx0mv6",
+      "userId": "mmyxgrkn2heisfo95",
+      "timestamp": 1774013914172
+    },
+    {
+      "conversationId": "mmyxke1kw91sx0mv6",
+      "userId": "user_carol",
+      "timestamp": 1774014037351
+    },
+    {
+      "conversationId": "mmyy6xoolx1ivv9in",
+      "userId": "mmyxgrkn2heisfo95",
+      "timestamp": 1774014160034
+    },
+    {
+      "conversationId": "mmyy6xoolx1ivv9in",
+      "userId": "user_alice",
+      "timestamp": 1774014143671
+    },
+    {
+      "conversationId": "mmyy8ugbk4z0z7l6r",
+      "userId": "mmyxgrkn2heisfo95",
+      "timestamp": 1774014235474
+    },
+    {
+      "conversationId": "mmyy8ugbk4z0z7l6r",
+      "userId": "user_alice",
+      "timestamp": 1774014313654
+    }
+  ]
+}

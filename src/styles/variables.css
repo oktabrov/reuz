@@ -1,0 +1,118 @@
+/* ==========================================
+   ReUz Design System — CSS Custom Properties
+   ========================================== */
+
+/* ── Inline SVG Icon System ────────────── */
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+:root {
+  /* Brand Colors */
+  --color-primary: #00FF9D;
+  --color-primary-dim: #00cc7d;
+  --color-primary-glow: rgba(0, 255, 157, 0.15);
+  --color-primary-glow-strong: rgba(0, 255, 157, 0.3);
+
+  /* Backgrounds */
+  --bg-dark: #0A0A0F;
+  --bg-surface: #12121A;
+  --bg-card: #1A1A25;
+  --bg-card-hover: #22222F;
+  --bg-elevated: #252535;
+  --bg-input: #1E1E2A;
+  --bg-overlay: rgba(0, 0, 0, 0.7);
+
+  /* Text */
+  --text-primary: #FFFFFF;
+  --text-secondary: #A0A0B8;
+  --text-muted: #6B6B80;
+  --text-inverse: #0A0A0F;
+
+  /* Status Colors */
+  --color-success: #00FF9D;
+  --color-warning: #FFB800;
+  --color-error: #FF4D6A;
+  --color-info: #4D9DFF;
+  --color-pending: #FFB800;
+
+  /* Status Backgrounds */
+  --bg-success: rgba(0, 255, 157, 0.1);
+  --bg-warning: rgba(255, 184, 0, 0.1);
+  --bg-error: rgba(255, 77, 106, 0.1);
+  --bg-info: rgba(77, 157, 255, 0.1);
+
+  /* Borders */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-default: rgba(255, 255, 255, 0.1);
+  --border-hover: rgba(255, 255, 255, 0.15);
+  --border-focus: var(--color-primary);
+
+  /* Spacing Scale */
+  --space-2xs: 0.25rem;   /* 4px */
+  --space-xs: 0.5rem;     /* 8px */
+  --space-sm: 0.75rem;    /* 12px */
+  --space-md: 1rem;       /* 16px */
+  --space-lg: 1.5rem;     /* 24px */
+  --space-xl: 2rem;       /* 32px */
+  --space-2xl: 3rem;      /* 48px */
+  --space-3xl: 4rem;      /* 64px */
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 20px rgba(0, 255, 157, 0.2);
+  --shadow-glow-strong: 0 0 40px rgba(0, 255, 157, 0.3);
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.8125rem;  /* 13px */
+  --font-size-base: 0.875rem; /* 14px */
+  --font-size-md: 1rem;       /* 16px */
+  --font-size-lg: 1.125rem;   /* 18px */
+  --font-size-xl: 1.375rem;   /* 22px */
+  --font-size-2xl: 1.75rem;   /* 28px */
+  --font-size-3xl: 2.25rem;   /* 36px */
+  --font-size-4xl: 3rem;      /* 48px */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+  --transition-spring: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Z-Index Scale */
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+
+  /* Layout */
+  --container-max: 1200px;
+  --container-narrow: 800px;
+  --navbar-height: 64px;
+  --sidebar-width: 280px;
+}

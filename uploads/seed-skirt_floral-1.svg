@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500">
+  <rect fill="#FF69B4" width="400" height="500"/>
+  <text fill="#333333" font-family="Arial, sans-serif" font-size="18" font-weight="bold" x="200" y="240" text-anchor="middle">Floral Skirt</text>
+  <text fill="#333333" font-family="Arial, sans-serif" font-size="12" x="200" y="270" text-anchor="middle" opacity="0.7">Photo 1</text>
+</svg>
